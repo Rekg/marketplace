@@ -8,6 +8,6 @@ public class DatabaseConfig extends AbstractMongoClientConfiguration {
 
     @Override
     protected String getDatabaseName() {
-        return "marketplace"; // Replace with your database name
+        return "marketplace"; 
     }
 }
