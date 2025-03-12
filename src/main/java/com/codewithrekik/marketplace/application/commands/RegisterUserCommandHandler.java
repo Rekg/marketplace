@@ -36,7 +36,7 @@ public class RegisterUserCommandHandler implements CommandHandler<RegisterUserCo
         User user = new User();
         user.setUsername(dto.getUsername());
         user.setEmail(dto.getEmail());
-        user.setPassword(dto.getPassword()); // Remember to hash this!
+        user.setPassword(dto.getPassword()); 
         user.setFirstName(dto.getFirstName());
         user.setLastName(dto.getLastName());
 
